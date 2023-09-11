@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  display: flex;
+  margin: auto;
+}
+.forCourseandMembers {
+  display: none;
+}
+.descktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.upBigBlock {
+  width: 100%;
+  position: relative;
+  height: 800px;
+}
+.header {
+  height: 56px;
+  margin: 24px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upBlock {
+  display: flex;
+}
+.rectangle45Block {
+  height: 750px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.imgLedyBlock {
+  height: 560px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 159px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  top: 167px;
+  right: 220px;
+}
+
+.imgLedy {
+  object-fit: cover;
+  height: 483px;
+  object-fit: cover;
+  border-radius: 159px;
+  margin-top: 77px;
+}
+.imgLedyMobile {
+  display: none;
+}
+.getStart {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+}
+.Skilled {
+  color: #13183f;
+  font-size: 36px;
+  font-weight: 800;
+}
+.getStartUp,
+.getStartUpFooter {
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #13183f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maxSkill {
+  color: #13183f;
+  font-size: 56px;
+  font-weight: 800;
+  margin-top: 186px;
+  margin-left: 165px;
+}
+.OurModern {
+  padding: 29px 0 40px 165px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.getStartMediumLeft {
+  width: 167px;
+  height: 63px;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 165px;
+  color: white;
+}
+.upRightBlock {
+  width: 50%;
+}
+.CourseHours {
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  position: absolute;
+  z-index: 4;
+  top: 509px;
+  right: 457px;
+  background-color: white;
+}
+.Members {
+  width: 155px;
+  height: 120px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+  padding: 24px;
+  position: absolute;
+  z-index: 3;
+  top: 270px;
+  right: 101px;
+}
+.CourseHoursText,
+.MembersText {
+  color: #83869a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.CourseHoursNumber,
+.MembersNumber {
+  color: #13183f;
+  font-size: 40px;
+  font-weight: 800;
+}
+.bottomBlock {
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottomBlockOne {
+  padding: 24px 165px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 116px;
+  flex-wrap: wrap;
+}
+.CheckOutText {
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  padding: 64px 32px;
+}
+.Block {
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  position: relative;
+  margin-bottom: 50px;
+}
+.icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  bottom: 32px;
+  left: 32px;
+}
+.categoryName {
+  color: #13183f;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 0 197px 24px 32px;
+}
+.categoryText {
+  margin: 0 32px;
+  color: #83869a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.categoryGetStart {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+  position: absolute;
+  left: 32px;
+  bottom: 40px;
+}
+.footer {
+  background-color: #13183f;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SkilledFooter {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  padding-left: 165px;
+}
+.getStartUpFooter {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  margin-right: 165px;
+}
+.getStartUpFooter:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+.getStartMediumLeft:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+.getStartUp:hover {
+  background-color: #666ca3;
+}

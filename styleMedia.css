@@ -1,0 +1,127 @@
+@media screen and (max-width: 1415px) {
+  .getStartUp,
+  .getStartUpFooter {
+    width: 140px;
+    height: 48px;
+  }
+  .Skilled {
+    font-size: 28px;
+  }
+  .upBigBlock {
+    width: 100%;
+    height: 641px;
+  }
+  .header {
+    height: 48px;
+    margin: 24px 40px;
+  }
+  .rectangle45Block {
+    width: 295px;
+    height: 460px;
+    top: 32px;
+    right: 0px;
+    overflow: hidden;
+  }
+  .rectangleImg {
+    width: 350px;
+    object-fit: cover;
+  }
+  .imgLedyBlock {
+    max-width: 217px;
+    height: 382px;
+    top: 122px;
+    right: 81px;
+  }
+
+  .imgLedy {
+    object-fit: cover;
+    max-width: 239px;
+    height: 330px;
+    margin-top: 52px;
+  }
+
+  .maxSkill {
+    font-size: 40px;
+    margin-top: 105px;
+    margin-left: 40px;
+  }
+  .OurModern {
+    padding: 25px 0 25px 40px;
+    margin-right: 16px;
+    color: #83869a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .getStartMediumLeft {
+    width: 167px;
+    height: 56px;
+    margin-left: 40px;
+  }
+  .CourseHours {
+    width: 155px;
+    height: 100px;
+    padding: 16px;
+    top: 442px;
+    right: 188px;
+    border-radius: 10px;
+  }
+  .Members {
+    width: 105px;
+    height: 100px;
+    padding: 16px;
+    top: 108px;
+    right: 30px;
+    border-radius: 10px;
+  }
+  .CourseHoursText,
+  .MembersText {
+    font-size: 14px;
+  }
+  .CourseHoursNumber,
+  .MembersNumber {
+    font-size: 32px;
+  }
+  .bottomBlockOne {
+    padding: 24px 38px;
+    gap: 11px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .CheckOutText {
+    width: 339px;
+    height: 259px;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 56px 32px;
+  }
+  .Block {
+    width: 340px;
+    height: 260px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+  }
+  .categoryName {
+    font-size: 20px;
+    padding: 0 207px 16px 32px;
+  }
+  .categoryText {
+    max-width: 286px;
+    margin: 0 21px 24px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .categoryGetStart {
+    bottom: 32px;
+  }
+  .SkilledFooter {
+    font-size: 28px;
+    padding-left: 40px;
+  }
+  .getStartUpFooter {
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    margin-right: 40px;
+  }
+}
